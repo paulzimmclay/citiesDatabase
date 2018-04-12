@@ -22,6 +22,8 @@ const CitiesDatabase.san_francisco = []
 CitiesDatabase.atlanta.push(
   {
     "name": "Atlanta",
-    
+    "year_visited": "2017",
+    "image": "",
+    "top_five_attractions": []
   }
 )
