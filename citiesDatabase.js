@@ -23,7 +23,10 @@ CitiesDatabase.atlanta.push(
   {
     "name": "Atlanta",
     "year_visited": "2017",
-    "image": "",
-    "top_five_attractions": []
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlanta_Skyline_from_Buckhead.jpg",
+    "top_five_attractions": ["Watch a Braves Game", "Drive on the Interstate", "Eat at the Varsity", "Visit World of Coca-Cola"]
   }
 )
+
+
+localStorage.setItem("CitiesDatabase", JSON.stringify(StudentDatabase));
