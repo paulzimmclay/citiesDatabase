@@ -1,4 +1,4 @@
-
+// Creation of database and adding it to local storage
 
 // Declare object (Database)
 
@@ -6,16 +6,16 @@ const CitiesDatabase = {}
 
 // Declare arrays (tables)
 
-const CitiesDatabase.atlanta = []
-const CitiesDatabase.boston = []
-const CitiesDatabase.cape_may = []
-const CitiesDatabase.philadelphia = []
-const CitiesDatabase.lancaster = []
-const CitiesDatabase.nashville = []
-const CitiesDatabase.new_york = []
-const CitiesDatabase.pittsburgh = []
-const CitiesDatabase.portland = []
-const CitiesDatabase.san_francisco = []
+CitiesDatabase.atlanta = []
+CitiesDatabase.boston = []
+CitiesDatabase.cape_may = []
+CitiesDatabase.philadelphia = []
+CitiesDatabase.lancaster = []
+CitiesDatabase.nashville = []
+CitiesDatabase.new_york = []
+CitiesDatabase.pittsburgh = []
+CitiesDatabase.portland = []
+CitiesDatabase.san_francisco = []
 
 // Add info for each array
 
@@ -28,5 +28,6 @@ CitiesDatabase.atlanta.push(
   }
 )
 
+// Convert object to JSON string, name "CitiesDatabase", set 
 
-localStorage.setItem("CitiesDatabase", JSON.stringify(StudentDatabase));
+localStorage.setItem("CitiesDatabase", JSON.stringify(CitiesDatabase));
