@@ -4,27 +4,22 @@
 
 const CitiesDatabase = {}
 
-// Declare arrays (tables)
-
-CitiesDatabase.atlanta = []
-CitiesDatabase.boston = []
-CitiesDatabase.cape_may = []
-CitiesDatabase.philadelphia = []
-CitiesDatabase.lancaster = []
-CitiesDatabase.nashville = []
-CitiesDatabase.new_york = []
-CitiesDatabase.pittsburgh = []
-CitiesDatabase.portland = []
-CitiesDatabase.san_francisco = []
+// Declare arrays for continents(tables)
+CitiesDatabase.northAmerica = []
+CitiesDatabase.southAmerica = []
+CitiesDatabase.europe = []
+CitiesDatabase.asia = []
+CitiesDatabase.africa = []
+CitiesDatabase.antarctica = []
 
 // Add info for each array
 
-CitiesDatabase.atlanta.push(
+CitiesDatabase.northAmerica.push(
   {
-    "name": "Atlanta",
+    name: "Atlanta",
     "year_visited": "2017",
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlanta_Skyline_from_Buckhead.jpg",
-    "top_five_attractions": ["Watch a Braves Game", "Drive on the Interstate", "Eat at the Varsity", "Visit World of Coca-Cola"]
+    "top_five_attractions": ["Watch a Braves Game", "Drive on the Interstate", "Eat at the Varsity", "Visit World of Coca-Cola", "Film Baby Driver"]
   }
 )
 
